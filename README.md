@@ -33,11 +33,11 @@ certain account information. The process of obtaining a token is called the auth
 ## What Is JWT (JSON Web Tokens)?
 
 ```
-JWT is an open standard for creating and exchanging JSON-based tokens that contain some
-claims, or information, about the user or the client.
+JWT is an open standard for creating and exchanging JSON-based tokens that contain some claims, or information,
+about the user or the client.
 
-JWT can be used for authentication, by signing the tokens with a secret key or a
-public/private key pair, and verifying their integrity and validity.
+JWT can be used for authentication, by signing the tokens with a secret key or a public/private key pair, and
+verifying their integrity and validity.
 
 JWT can also be used for authorization, by encoding some permissions, roles, or scopes, in the tokens,
 and checking them against the resources
