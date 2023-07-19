@@ -18,3 +18,29 @@ Authorization ensures that only authorized actions can be performed on protected
 
 ```
 
+## What Is OAuth?
+
+```
+Open Authorization (OAuth) is an open standard for token-based authentication over public networks.
+OAuth allows third-party services such as Facebook and Google to use end-user account information without exposing
+the user’s account credentials to a third party.
+
+It acts as an intermediary on behalf of end users, providing access tokens to third-party services authorized to share
+certain account information. The process of obtaining a token is called the authorization flow.
+
+```
+
+## What Is JWT (JSON Web Tokens)?
+
+```
+JWT is an open standard for creating and exchanging JSON-based tokens that contain some
+claims, or information, about the user or the client.
+
+JWT can be used for authentication, by signing the tokens with a secret key or a
+public/private key pair, and verifying their integrity and validity.
+
+JWT can also be used for authorization, by encoding some permissions, roles, or scopes, in the tokens,
+and checking them against the resources
+
+```
+
